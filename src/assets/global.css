@@ -29,7 +29,7 @@ body{
     border: transparent;
     border-bottom: 3px solid var(--nature);
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
 }
 .top_header{
     display: flex;
