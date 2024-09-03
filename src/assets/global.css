@@ -95,3 +95,39 @@ body{
 @media screen and (max-width: 20em) {
     /* Small Screens */
 }
+
+/* SectionHeader Styling Section  */
+.section_wrapper {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative; 
+}
+  .section_header_left, .section_header_right {
+    width: 4rem;
+    height: 1.5rem;
+    position: absolute; 
+    z-index: 2; 
+  }
+  .section_header_left {
+    background-color: var(--nature);
+  }
+  
+  .section_header_content {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 2.5rem;
+    background-color: black;
+    z-index: 3; 
+    color: #fff;
+    display: grid;
+    place-content: center;
+    position: relative; 
+  }
+  
+  .section_header_right {
+    background-color: var(--primary-color);
+  }
+  
