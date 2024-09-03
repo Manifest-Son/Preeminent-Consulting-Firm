@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-font: "Open Sans", sans-serif ;
+    --secondary-font: ;
+    --primary-color: #0E185F;
+    --secondary-color: #2FA4FF;
+    --nature: #008080;
+    --text-color: #fff;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: var(--primary-font);
+}
+
+/* Header Section Styling */
+.header_section{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: transparent;
+    border-bottom: 3px solid var(--nature);
+    width: 100%;
+    position: fixed;
+}
+.top_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem ;
+    background-color: var(--secondary-color);
+}
+.top_header svg{
+    font-size: 1.2rem;
+}
+.header_contact{
+    display: flex;
+    gap: .6rem;
+}
+
+.bottom_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.bottom_header h1{
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+}
+.header_nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+.header_nav li{
+    border: 2px solid green;
+    padding: .2rem 1rem;
+    border: transparent;
+    cursor: pointer;
+}
+.header_nav li:hover{
+    border-bottom: 3px solid var(--nature);
+}
+.bottom_header button{
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+.bottom_header button:hover{
+    background-color: var(--secondary-color);
+    color: var(--text-color)
+}
+@media screen and (max-width: 75em) {
+    /* Large Screens */
+}
+@media screen and (max-width: 50em) {
+    /* Medium Screens */
+}
+@media screen and (max-width: 20em) {
+    /* Small Screens */
+}
